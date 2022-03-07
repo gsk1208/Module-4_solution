@@ -1,9 +1,9 @@
 (function(window){
     var byeSpeaker = {};
-    byeSpeaker.name = names[i];
+    
     var speakWord = "Goodbye";
     byeSpeaker.speak = function(name){
-        console.log(speakWord + " " + names[i]);
+        console.log(speakWord + " " + name);
     }
     window.byeSpeaker = byeSpeaker;
   
